@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My Favorite Music/Movies</title></head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <body>
+        <div class="tile">
+            <img src="images/movie1.webp">
+            <p class="request">Movie title:</p>
+            <p class="fill">Avengers Endgame</p>
+            <p class="request">Premiere date:</p>
+            <p class="fill">April 22, 2019</p>
+            <p class="request" style="display: inline-block;">Rating:</p>
+            <p class="fill" style="display: inline-block;">&#9733;8.4/10</p>
+        </div>
+        <div class="tile">
+            <img src="images/movie-2.webp">
+            <p class="request">Movie title:</p>
+            <p class="fill">John Wick: Chapter 2</p>
+            <p class="request">Premiere date:</p>
+            <p class="fill">January 30, 2017</p>
+            <p class="request" style="display: inline-block;">Rating:</p>
+            <p class="fill" style="display: inline-block;">&#9733;7.4/10</p>
+        </div>
+        <style>
+            body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-image: url(images/page-bg.jpg);
+}
+img {
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 120px;
+    height: 234px;
+    border-radius: 10px;
+    display: block;
+}
+.request, .fill {
+    margin: 0;
+    color: antiquewhite;
+}
+div {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: solid black;
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 100px;
+    transition: box-shadow 0.23s, transform 0.23s;
+    background-image: url(images/div-bg.jpg);
+    background-size: cover;
+}
+div:hover {
+    box-shadow: 4px 4px 15px;
+    transform: translateY(-5px) scale(1.1);
+}
+.request {
+    display: inline-block;
+    margin-left: 4px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+.fill {
+    font-family: Montserrat;
+    margin-left: 5px;
+    line-height: 17px;
+}
+        </style>
+    </body>
+</html>>
